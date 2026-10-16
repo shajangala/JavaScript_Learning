@@ -5,9 +5,9 @@ let str= "Hello";
 console.log(str);
 str = 'world';
 console.log(str);
-name = `Hello ${str}`;
-console.log(name);
-console.log(typeof name);
+name1 = `Hello ${str}`;
+console.log(name1);
+console.log(typeof name1);
 
 // Number is primitive data type in JS
 // It can be declared using numbers.
@@ -39,6 +39,21 @@ console.log(typeof x);
 let y= 1234645678678n;
 console.log(y);
 console.log(typeof y);
+
+console.log("**** DataTypes ****");
+
+console.log(typeof "hi"); //string
+console.log(typeof 23); //number
+console.log(typeof true); //boolean
+console.log(typeof null); //object
+console.log(typeof undefined); //undefined
+console.log(typeof NaN); //number
+console.log(typeof {}); //Object
+console.log(typeof []); //Object
+console.log(typeof 20n); //BigInt
+console.log(typeof function(){});  // function
+console.log(typeof new Date());//object
+console.log("**** Datatype ****");
 
 //date is not a primitive data type in JS. 
 const today = new Date();

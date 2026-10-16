@@ -25,9 +25,17 @@ b="";
 console.log(b);
 b=null;
 console.log(b);
-b= [];
+b= 0n;
 console.log(b);
 b=-0;
 console.log(b);
 b=NaN;
 console.log(b);
+
+let errorMessage = "";
+if (errorMessage) {
+  console.log("Failed:", errorMessage);
+} else {
+  console.log("No error, test passed");  
+}
+// o/p: No error,test passed

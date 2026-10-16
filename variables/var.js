@@ -1,7 +1,7 @@
 // Variable is a container to store values. In JS, we have 3 types of variables : var, let and const.
-// Rules for variable names:
+// Rules for variable names.
 // It can contain letters, digits, underscores, numbers and dollar sign.
-// It can start with letters, numbers and underscores but not with a digit.
+// It can start with letters, underscores and dollar sign but not with a digit.
 // It is case sensitive and cannot be a reserved keyword.
 
 // var variable is function scoped and global scoped.
@@ -23,19 +23,20 @@ function varScope(){
     console.log("inside function after re-assigning", age); //30
 }
 varScope();
+console.log(age);
 var age = true;
 console.log(age); //true
 
 // var- Example2
 console.log("**********");
-var name = "Java";
-console.log(name); // Java
+var name1 = "Java";
+console.log(name1); // Java
 
 function varScope2(){
-    var name = "Script";
-    console.log("inside function", name); //Script
+    var name1 = "Script";
+    console.log("inside function", name1); //Script
 }
 varScope2();
-console.log(name); //Java
-var name = "JavaSCript";
-console.log(name); //JavaSCript
+console.log(name1); //Java
+var name1 = "JavaScript";
+console.log(name1); //JavaScript

@@ -22,3 +22,10 @@ function constScope(){
 }
 constScope();
 console.log(b); //10
+
+// const example-3  If an array is declared using const the elements of the array can be changed but the array cann't be re-assigned.
+const arr1 = [1,2,3];
+console.log(arr1); //[1,2,3]
+arr1[1] =4;
+console.log(arr1); //[1,4,3]
+ arr1 =[10,20,30]; // Assignment to constant variable
