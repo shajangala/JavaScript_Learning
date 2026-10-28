@@ -13,6 +13,7 @@ function counter()
 counter();
 counter();
 counter();
+console.log("***")
 const increment = counter(); // initialises the count as 0 and returns the function()
 increment(); //1
 increment(); //2

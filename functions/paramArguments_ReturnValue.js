@@ -10,3 +10,5 @@ function add(a,b)
 }
 add(3,10);
 console.log(add(4,4));
+add(1); //b is undefined so 1+undefined =NaN
+add(1,2,3);

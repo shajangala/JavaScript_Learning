@@ -25,10 +25,10 @@ console.log(nonRepArr); // [20,30,10,40] ['Banana','Apple','Grapes']
 // Another method
 let str = "I am working in Woodwing";
 let str_no_dup = "";
-for(const x of str)
+for(const x of str) 
 {
     if(!(str_no_dup.includes(x)))
-    str_no_dup+= x;
+    str_no_dup+= x; 
 }
 console.log(str_no_dup);
 
