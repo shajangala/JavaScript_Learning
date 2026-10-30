@@ -147,7 +147,6 @@ Bonus: the same with numbers:
 */
 
 const n=5;
-let row="";
 for(let i=1;i<=n;i++)
 {
   let row = "";
